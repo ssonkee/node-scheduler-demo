@@ -1,8 +1,8 @@
 var express = require('express');
 var path = require('path');
-
-var db = require('mongoskin').db("localhost/testdb", { w: 0});
-    db.bind('event');
+var config = require('./config/config');
+var db = require('mongoskin').db(config.db.url, { w: 0});
+	db.bind('event');
 
 
 var app = express();

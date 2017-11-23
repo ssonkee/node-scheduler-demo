@@ -7,8 +7,11 @@
     "express": "~3.3.8",
     "mongoskin": "~0.6.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^4.5.0"
+  },
   "scripts": {
+    "start": "node app.js ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
