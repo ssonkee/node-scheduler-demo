@@ -48,7 +48,6 @@ app.get('/data', function(req, res){
 	});
 });
 
-
 app.post('/data', function(req, res){
 	var data = req.body;
 	var mode = data["!nativeeditor_status"];
